@@ -1,0 +1,28 @@
+{
+  "name": "cors-buster",
+  "version": "2.0.2",
+  "description": "When you need a file, but the headers ain't good, who you gonna call? CORS Buster!",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env micro --listen=tcp://0.0.0.0:$PORT",
+    "dev": "micro-dev"
+  },
+  "keywords": [],
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wmhilton/cors-buster.git"
+  },
+  "dependencies": {
+    "cross-env": "^5.1.4",
+    "micro": "^9.1.4",
+    "node-fetch": "^2.1.2"
+  },
+  "now": {
+    "public": true
+  },
+  "devDependencies": {
+    "micro-dev": "^2.2.2"
+  }
+}
